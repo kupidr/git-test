@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Currency Converter</h2>
+      <input type="text" id="amount" placeholder="Enter your amount" />
+      <select name="currency" id="currency">
+        <option value="" selected>Select Currency</option>
+        <option value="dollerToTaka">Doller to Taka</option>
+        <option value="takaToDoller">Taka to Doller</option>
+
+        <option value="cadToTaka">Canadian Dollar to Taka</option>
+        <option value="takaToCad">Taka to Canadian Dollar</option>
+
+        <option value="euroToTaka">Euro to Taka</option>
+        <option value="takaToEuro">Taka to Euro</option>
+      </select>
+      <input type="text" id="print" readonly />
+      <button id="submit">Submit</button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
